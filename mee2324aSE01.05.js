@@ -17,9 +17,9 @@ let selectedImage; //currently selected image
 //#0.1 enter the following array code into *AI* to have it explain it to you
 //#0.2 Find 5 images for your theme and load them into the assets folder
 let imageFiles = [
-  { file: './assets/cedric.png', 
+  { file: '/assets/cedric.png', 
    description: 'Cedric - A Brave Competitor' },
-  { file: './assets/hermione.png', 
+  { file: 'assets/hermione.png', 
    description: 'Hermione - The Brightest Witch' },
   { file: './assets/hogwarts parchment.png', 
    description: 'Hogwarts Parchment - The Magical School' },
