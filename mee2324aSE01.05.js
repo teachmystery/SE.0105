@@ -43,7 +43,7 @@ function setup() {
   let bannerDiv = select('#app-header');
   bannerDiv.html('Friends Drawing Program'); //#2 Change to your themed title
   
-  let canvas = createCanvas(windowWidth, 400);
+  let canvas = createCanvas(windowWidth, 800);
   let canvasContainer = select("#canvasContainer");
   canvas.parent("canvasContainer");
   
